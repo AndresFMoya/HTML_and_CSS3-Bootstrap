@@ -1,0 +1,80 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container-fluid {
+  max-width: 1310px;
+  margin: auto;
+  padding: 0;
+}
+
+#top-header {
+  height: 110px;
+  background-color: #f72210;
+  color: #fff;
+  max-width: 1310px;
+}
+ 
+#date-top-nav {
+  position: relative;
+  bottom: 10px;
+}
+
+#navbottom {
+  max-width: 1310px;
+  margin: auto;
+  border-bottom: 2px solid #f4f5f6;
+}
+
+#navbottom ul {
+  width: 100%;
+  max-width: 1310px;
+}
+
+#navbottom a {
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+#navbottom li {
+  width: 100%;
+  border-right: 2px solid #f4f5f6;
+}
+
+.logoimg {
+  position: relative;
+  bottom: 30px;
+  width: 396px;
+  height: 60px;
+}
+
+
+.card-group {
+  color:red;
+}
+
+
+
+@media (max-width: 990px) {
+  #date-top-nav {
+    display: none;
+  }
+
+  #top-header {
+    height: 50px;
+  }
+
+.logoimg {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+
+  .logoimg img {
+    width: 132px;
+    height: 20px;
+  }
+}
