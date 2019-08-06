@@ -3,6 +3,9 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+ul {
+  list-style: none;
+}
 .container-fluid {
   max-width: 1310px;
   margin: auto;
@@ -15,7 +18,7 @@
   color: #fff;
   max-width: 1310px;
 }
- 
+
 #date-top-nav {
   position: relative;
   bottom: 10px;
@@ -51,12 +54,13 @@
   height: 60px;
 }
 
-
 .card-group {
-  color:red;
+  color: red;
 }
 
-
+.image {
+  float: left;
+}
 
 @media (max-width: 990px) {
   #date-top-nav {
@@ -67,11 +71,11 @@
     height: 50px;
   }
 
-.logoimg {
-  position: absolute;
-  top: 12px;
-  left: 10px;
-}
+  .logoimg {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+  }
 
   .logoimg img {
     width: 132px;
