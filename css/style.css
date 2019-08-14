@@ -6,10 +6,69 @@
 ul {
   list-style: none;
 }
+
 .container-fluid {
   max-width: 1310px;
   margin: auto;
   padding: 0;
+}
+
+.main-section {
+  height: 2150px;
+}
+
+.card-cat {
+  position: relative;
+  bottom: 18px;
+  background-color: white;
+  color: red;
+  width: 80px;
+  font-size: 16px;
+}
+
+.card-info {
+  position: relative;
+  bottom: 18px;
+}
+
+.block-title {
+  color: #9a9a9a;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-body {
+  font-size: 14px;
+  color: #333;
+}
+
+.left-main-section {
+  height: 2150px;
+}
+
+.left-main-section::-webkit-scrollbar {
+  display: none;
+}
+
+.more-stories img {
+  position: relative;
+  top: 12px;
+}
+
+.summary {
+  color: black;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.more-stories a {
+  color: black;
+  font-size: 14px;
+  font-weight: bolder;
 }
 
 #top-header {
@@ -39,7 +98,7 @@ ul {
   color: black;
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 #navbottom li {
@@ -60,6 +119,75 @@ ul {
 
 .image {
   float: left;
+}
+
+.opinion a {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.opinion .editor {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.magazine-section {
+  height: 428px;
+}
+
+.magazine-section .image {
+  height: 356px;
+}
+
+.magazine-title {
+  color: black;
+  position: relative;
+  bottom: 30px;
+}
+
+.magazine-img {
+  object-fit: cover;
+  width: 320px;
+  height: 350px;
+}
+
+.page-bottom a {
+  color: black;
+}
+
+.article-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.side-article-link {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.block-nw-editors-pick a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-links-social {
+  display: flex;
+  width: 360px;
+  justify-content: space-between;
+}
+
+.leaf {
+  color: #666;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.leaf a {
+  color: #666;
+  margin-right: 10px;
+  font-size: 14px;
 }
 
 @media (max-width: 990px) {
