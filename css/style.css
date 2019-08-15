@@ -252,4 +252,24 @@ ul {
   footer {
     width: auto;
   }
+
+  .footer-logo-section {
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+
+  .footer-links-social {
+    position: absolute;
+    left: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-logo-section ul {
+    width: 250px;
+    height: auto;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
 }
