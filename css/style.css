@@ -22,8 +22,8 @@ ul {
 }
 
 .side-img {
-  width:120px;
-  height:90px;
+  width: 120px;
+  height: 90px;
 }
 
 .newsletter-title {
@@ -31,13 +31,13 @@ ul {
 }
 
 .small-img {
-  width:135px;
-  height:90px;
+  width: 135px;
+  height: 90px;
 }
 
 .img-head {
-  width:63px;
-  height:63px;
+  width: 63px;
+  height: 63px;
 }
 
 .card-cat {
@@ -189,11 +189,13 @@ ul {
 
 .newsletter-img {
   position: relative;
-  bottom: 65px; 
-  right: 33px; 
-  height: 355px; 
-  width: 100%; 
-  background: url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif") no-repeat scroll center center / cover;
+  bottom: 65px;
+  right: 33px;
+  height: 355px;
+  width: 100%;
+  background:
+    url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif")
+    no-repeat scroll center center / cover;
 }
 
 .article-link {
@@ -223,17 +225,17 @@ ul {
 }
 
 .footer-logo {
-  max-width: 250px; 
+  max-width: 250px;
   height: 80px;
 }
 
 .logo-icons {
-  max-width: 360px; 
+  max-width: 360px;
   height: 16px;
 }
 
 .fb-logo {
-  width: 40px; 
+  width: 40px;
   height: 25px;
 }
 
@@ -243,7 +245,7 @@ ul {
 }
 
 .copyright {
-  position: relative; 
+  position: relative;
   top: 40px;
 }
 
