@@ -208,6 +208,10 @@ ul {
   font-size: 14px;
 }
 
+section h2 {
+  display: none;
+}
+
 .footer-links-social {
   display: flex;
   width: 360px;
