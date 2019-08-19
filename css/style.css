@@ -1,0 +1,352 @@
+ul {
+  list-style: none;
+}
+
+.container-fluid {
+  max-width: 1310px;
+  margin: auto;
+  padding: 10px;
+}
+
+.p-subscribe {
+  width: 130px;
+}
+
+.main-section {
+  height: 2150px;
+}
+
+.main-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.side-img {
+  width: 120px;
+  height: 90px;
+}
+
+.newsletter-title {
+  height: 355px;
+}
+
+.small-img {
+  width: 135px;
+  height: 90px;
+}
+
+.img-head {
+  width: 63px;
+  height: 63px;
+}
+
+.card-cat {
+  position: relative;
+  bottom: 18px;
+  background-color: white;
+  color: red;
+  width: 80px;
+  font-size: 16px;
+}
+
+.card-info {
+  position: relative;
+  bottom: 18px;
+}
+
+.block-title {
+  color: #9a9a9a;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-body {
+  font-size: 14px;
+  color: #333;
+}
+
+.left-main-section {
+  height: 2150px;
+}
+
+.left-main-section::-webkit-scrollbar {
+  display: none;
+}
+
+.main-section::-webkit-scrollbar {
+  display: none;
+}
+
+.more-stories img {
+  position: relative;
+  top: 12px;
+}
+
+.summary {
+  color: black;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.more-stories a {
+  color: black;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+#top-header {
+  height: 110px;
+  background-color: #f72210;
+  color: #fff;
+  max-width: 1310px;
+}
+
+#date-top-nav {
+  position: relative;
+  bottom: 10px;
+}
+
+#navbottom {
+  max-width: 1310px;
+  margin: auto;
+  border-bottom: 2px solid #f4f5f6;
+}
+
+#navbottom ul {
+  width: 100%;
+  max-width: 1310px;
+}
+
+.opinion a {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.page-bottom a {
+  color: black;
+}
+
+.block-nw-editors-pick a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.leaf a {
+  color: #666;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+#navbottom a {
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#navbottom li {
+  width: 100%;
+  border-right: 2px solid #f4f5f6;
+}
+
+.logoimg {
+  position: relative;
+  bottom: 30px;
+  width: 396px;
+  height: 60px;
+}
+
+.card-group {
+  color: red;
+}
+
+.image {
+  float: left;
+}
+
+.opinion .editor {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.magazine-title {
+  color: black;
+  position: relative;
+  bottom: 30px;
+}
+
+.magazine-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.newsletter-img {
+  position: relative;
+  bottom: 65px;
+  right: 33px;
+  height: 355px;
+  width: 100%;
+  background:
+    url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif")
+    no-repeat scroll center center / cover;
+}
+
+.article-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.side-article-link {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+section h2 {
+  display: none;
+}
+
+.footer-links-social {
+  display: flex;
+  width: 360px;
+  justify-content: space-between;
+}
+
+.leaf {
+  color: #666;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.footer-logo-section {
+  width: 100%;
+}
+
+.footer-logo {
+  max-width: 250px;
+  height: 80px;
+}
+
+.logo-icons {
+  max-width: 360px;
+  height: 16px;
+}
+
+.fb-logo {
+  width: 40px;
+  height: 25px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.copyright {
+  position: relative;
+  top: 40px;
+}
+
+@media (max-width: 990px) {
+  #date-top-nav {
+    display: none;
+  }
+
+  #top-header {
+    height: 50px;
+  }
+
+  .sign-in-top {
+    position: relative;
+    right: 70px;
+    top: 10px;
+  }
+
+  #navbottom {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+  }
+
+  .logoimg {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+  }
+
+  .logoimg img {
+    width: 132px;
+    height: 20px;
+  }
+
+  .left-main-section {
+    height: 2250px;
+  }
+
+  footer {
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-main-section {
+    height: 100%;
+  }
+
+  .subfeature2 ul {
+    width: 100%;
+  }
+
+  .subfeature2 li {
+    display: flex;
+  }
+
+  .subfeature2 img {
+    width: 250px;
+    height: 190px;
+  }
+
+  .subfeature2 .info {
+    width: 100%;
+  }
+
+  .newsletter-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  footer {
+    width: auto;
+  }
+
+  .footer-logo-section {
+    flex-direction: column;
+    padding-bottom: 15px;
+    width: 100%;
+  }
+
+  .footer-links-social {
+    position: absolute;
+    left: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-logo-section ul {
+    width: 250px;
+    height: auto;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+}
