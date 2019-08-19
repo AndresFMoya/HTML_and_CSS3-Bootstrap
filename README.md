@@ -5,4 +5,4 @@ This project consist in a replica of the news site Newsweek.com using the Bootst
 Andres Felipe Moya https://github.com/AndresFMoya
 
 # The Website
-Follow this link to access the website::
+Follow this link to access the website: https://andresfmoya.github.io/using_bootstrap/
