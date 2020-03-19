@@ -10,7 +10,7 @@ This project consist in a replica of the news site Newsweek.com using the Bootst
 - Prettier
 - Bootstrap
 
-## [Live Version](https://andresfmoya.github.io/using_bootstrap/)
+## [Live Version](https://andresfmoya.github.io/HTML_and_CSS3-Bootstrap/)
 
 
 ## 🤝 Contributing
